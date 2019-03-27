@@ -10,15 +10,30 @@
   </head>
   <body>
     <div class="container">
-      <h1>Schouting Machine</h1>
+      <h1>Shouting Machine</h1>
       <form id="user-input">
         <div class="form-group">
-          <label for="user">Enter a senctence.</label>
+          <label for="user">Enter a sentence.</label>
           <input id="user" type="text">
         </div>
-        <button type="submit" class="btn">Enter</button>
+        <button type="submit" class="btn" id="yell">Enter</button>
       </form>
 
+      <div class="row">
+       <div class="col-md-6">
+         <h2>You said:</h2>
+         <ul class="unstyled" id="you-said">
+
+         </ul>
+       </div>
+
+       <div class="col-md-6">
+         <h2>The web page said back:</h2>
+         <ul class="unstyled" id="page-yell">
+
+         </ul>
+       </div>
+     </div>
 
     </div>
   </body>
